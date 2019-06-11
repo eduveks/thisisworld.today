@@ -1,0 +1,2 @@
+webpackJsonp([2],{TQvL:function(n){n.exports={human:"human__1i2tS"}},bwwX:function(n,e,t){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var u=t("KM04"),c=(t.n(u),t("TQvL")),a=t.n(c),o=Object(u.h)("h1",null,"Human"),h=Object(u.h)("p",null,"This is the Home component.");e.default=function(){return Object(u.h)("div",{class:a.a.human},o,h)}}});
+//# sourceMappingURL=route-human.chunk.6707a.js.map

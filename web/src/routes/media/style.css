@@ -1,0 +1,136 @@
+.media {
+    padding: 56px 20px;
+    min-height: 100%;
+    width: 100%;
+    color: #999999;
+    background-color: #151515;
+}
+
+.media h1 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.media h2 {
+    font-size: 32px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.media h3 {
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.navLeft {
+    position: fixed;
+    left: 0;
+    top: 55px;
+    height: calc(100vh - 55px);
+    background: #000;
+    padding: 10px;
+    overflow-y: hidden;
+}
+
+.navLeft div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 30px;
+    text-align: center;
+}
+
+.navLeft a,
+.navLeft a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navLeft a:hover {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navTop {
+    padding: 10px;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(5px, 1fr));
+    grid-template-rows: repeat(1, 5px);
+    justify-content: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navTop div {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.navTop div a,
+.navTop div a:active {
+    color: #999999;
+    text-decoration: none;
+}
+
+.navTop div a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navActive {
+    font-weight: bold;
+}
+
+.navButtons {
+    width: calc(100vw - 200px);
+    margin: 50px 150px 50px 100px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, 150px);
+    grid-auto-rows: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navButtons > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navButtons > div > div > p {
+    text-align: center;
+}
+
+.navButtons > div:hover {
+    cursor: pointer;
+    background-color: #f1f1f1;
+    color: #000000;
+}
+
+.videoContainer {
+    position: relative;
+    height: 60vh;
+    max-height: 60vh;
+    width: 80%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.videoContainer iframe,
+.videoContainer object,
+.videoContainer embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90vw;
+    height: 60vh;
+}

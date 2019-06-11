@@ -1,0 +1,14 @@
+node_modules
+/build
+/*.log
+*.lock
+
+*~
+*.swp
+
+package-lock.json
+
+*firebase*
+
+manifest.json
+
