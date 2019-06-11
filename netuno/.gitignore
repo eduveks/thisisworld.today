@@ -1,0 +1,13 @@
+
+node_modules/
+.DS_Store
+*.log
+.idea/
+.metadata/
+.vscode
+package-lock.json
+
+/trash/*
+
+config/*.json
+
