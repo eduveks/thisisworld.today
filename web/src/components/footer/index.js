@@ -26,10 +26,10 @@ const Footer = () => (
 	      </a>
             </p>
 	    <div class={ style.author }>
-	      created by
+	{ /*created by
               <p>
 		<a target="_blank" href="https://www.eduardovelasques.com">eduardovelasques.com</a>
-              </p>
+              </p>*/}
 	    </div>
           </div>
 	</div>
